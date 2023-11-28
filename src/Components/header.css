@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.rght-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50px;
+}
+
+.rght-side h1 {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    max-width: 5rem;
+  }
+
+  .rght-side h1 {
+    visibility: hidden;
+    width: 0;
+  }
+}

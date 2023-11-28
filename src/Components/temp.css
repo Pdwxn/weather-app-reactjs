@@ -1,0 +1,36 @@
+.main {
+  margin: 5rem 22rem;
+  padding: 0 3rem;
+}
+
+.top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+h1 {
+  font-size: 8.5rem;
+  font-weight: 700;
+}
+
+span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+span .country {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.sky {
+  position: absolute;
+  right: 20%;
+  top: 47%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}

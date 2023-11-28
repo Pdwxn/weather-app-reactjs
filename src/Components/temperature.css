@@ -1,0 +1,98 @@
+.container {
+  max-width: 700px;
+  height: 40rem;
+  margin: auto;
+  padding: 0 4rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 8.5rem;
+  font-weight: 700;
+}
+
+span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+span .country {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.description {
+  position: relative;
+  right: -90%;
+  top: -12%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  span {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  span .country {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .bottom h3 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  .bottom {
+    position: relative;
+    left: -5%;
+    margin-right: 32px;
+  }
+}

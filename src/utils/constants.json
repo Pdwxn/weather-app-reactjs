@@ -1,0 +1,5 @@
+{
+  "API_URL": "https://api.openweathermap.org/data/2.5/weather?q=",
+  "API_UNITS": "&units=",
+  "API_KEY": "&appid=c0ba5cb47bd9767f9f19114ef057860a"
+}
