@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./app.css";
 import constants from "./utils/constants.json";
-import Header from "./Components/Header";
-import Temperature from "./Components/Temperature";
+import Header from "./components/Header/Header";
+import Temperature from "./components/Temperature/Temperature";
 
 function App() {
   const { API_KEY, API_URL, API_UNITS } = constants;
@@ -16,7 +16,6 @@ function App() {
     if (event.key === "Enter") {
       axios.get(url).then((response) => {
         setData(response.data);
-        console.log(response.data);
       });
       setLocation("");
     }

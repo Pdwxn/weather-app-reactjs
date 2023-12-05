@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
-import Logo from "../Assets/weather-svgrepo-com.svg";
-import SearchBar from "./SearchBar";
+import Logo from "../../assets/weather-svgrepo-com.svg";
+import SearchBar from "../Search Bar/SearchBar";
 
 function Header({ location, setLocation, searchLocation }) {
   return (

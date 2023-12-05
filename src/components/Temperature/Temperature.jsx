@@ -3,25 +3,27 @@ import "./temperature.css";
 
 function Temperature({ data }) {
   return (
-    <div className="container">
-      <header className="top">
-        <section className="location">
-          {data.sys ? (
-            <span>
-              <span>{data.name}, </span>
-              <span className="country">{data.sys.country}</span>
-            </span>
-          ) : null}
-        </section>
-        <section className="temp">
-          {data.main ? <h1>{data.main.temp.toFixed()}°c</h1> : null}
-        </section>
-        <section className="description">
-          {data.weather ? <h3>{data.weather[0].main}</h3> : null}
-        </section>
-      </header>
+    <div>
+      <div className="container_temperature">
+        <header className="top">
+          <section className="location">
+            {data.sys ? (
+              <span>
+                <span>{data.name}, </span>
+                <span className="country">{data.sys.country}</span>
+              </span>
+            ) : null}
+          </section>
+          <section className="temp">
+            {data.main ? <h1>{data.main.temp.toFixed()}°c</h1> : null}
+          </section>
+          <section className="description">
+            {data.weather ? <h3>{data.weather[0].main}</h3> : null}
+          </section>
+        </header>
+      </div>
 
-      <div>
+      <div className="container_data">
         {data.name !== undefined && (
           <footer className="bottom">
             <section className="feels">
