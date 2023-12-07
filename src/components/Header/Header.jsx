@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Logo from "../../assets/weather-logo.svg";
+import Logo from "../../assets/logo/weather-logo.svg";
 import SearchBar from "../Search Bar/SearchBar";
 
 function Header({ location, setLocation, searchLocation }) {
