@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./app.css";
+import "./App.css";
 import constants from "./utils/constants.json";
 import Header from "./components/Header/Header";
 import Temperature from "./components/Temperature/Temperature";
